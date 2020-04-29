@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper/BookingTicketRestAPICoreDapper.csproj": {}
+  },
+  "projects": {
+    "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper/BookingTicketRestAPICoreDapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper/BookingTicketRestAPICoreDapper.csproj",
+        "projectName": "BookingTicketRestAPICoreDapper",
+        "projectPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper/BookingTicketRestAPICoreDapper.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/user/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/BookingTicketRestAPICoreDapper_Data.csproj": {
+                "projectPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/BookingTicketRestAPICoreDapper_Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/BookingTicketRestAPICoreDapper_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/BookingTicketRestAPICoreDapper_Data.csproj",
+        "projectName": "BookingTicketRestAPICoreDapper_Data",
+        "projectPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/BookingTicketRestAPICoreDapper_Data.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/user/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/BookingTicketRestAPICoreDapper_Utilities.csproj": {
+                "projectPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/BookingTicketRestAPICoreDapper_Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/BookingTicketRestAPICoreDapper_Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/BookingTicketRestAPICoreDapper_Utilities.csproj",
+        "projectName": "BookingTicketRestAPICoreDapper_Utilities",
+        "projectPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/BookingTicketRestAPICoreDapper_Utilities.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/online/DuAn/BookingTiket/HoanChinh/bookingTicket_BE_Latest-master/BookingTicketRestAPICoreDapper_Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/user/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
